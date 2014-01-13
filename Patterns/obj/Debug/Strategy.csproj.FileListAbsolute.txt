@@ -7,3 +7,6 @@ c:\users\user\documents\visual studio 2012\Projects\Patterns\Patterns\obj\Debug\
 D:\Tranings\Patterns\Patterns\bin\Debug\Patterns.exe.config
 D:\Tranings\Patterns\Patterns\obj\Debug\Patterns.exe
 D:\Tranings\Patterns\Patterns\obj\Debug\Patterns.pdb
+D:\Tranings\Patterns\Patterns\bin\Debug\Patterns.exe
+D:\Tranings\Patterns\Patterns\bin\Debug\Patterns.pdb
+D:\Tranings\Patterns\Patterns\obj\Debug\Strategy.csprojResolveAssemblyReference.cache
