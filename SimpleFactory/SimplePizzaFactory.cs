@@ -8,10 +8,10 @@
 
             switch (type)
             {
-                    case PizzaType.CheezePizza:
+                case PizzaType.CheezePizza:
                     pizza = new CheezePizza();
                     break;
-                    case  PizzaType.SimplePizza:
+                case PizzaType.SimplePizza:
                     pizza = new SimplePizza();
                     break;
             }
