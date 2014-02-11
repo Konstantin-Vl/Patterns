@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>3d69fe24-d967-4660-856d-2099047f31ad</ProjectGuid>
+    <ProjectGuid>{25BF53D9-77A9-4EFD-89A5-FEE2CB025FFB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FactoryMethod</RootNamespace>
@@ -41,8 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheezePizza.cs" />
+    <Compile Include="ChicagoPeperonyPizza.cs" />
+    <Compile Include="ChicagoPizzaStore.cs" />
+    <Compile Include="IPizza.cs" />
+    <Compile Include="NYPeperonyPizza.cs" />
+    <Compile Include="NyPizzaStore.cs" />
+    <Compile Include="PizzaStore.cs" />
+    <Compile Include="PizzaType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimplePizza.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

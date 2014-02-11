@@ -7,3 +7,5 @@ D:\Tranings\Patterns\SimpleFactory\obj\Debug\SimpleFactory.pdb
 D:\Patterns\SimpleFactory\bin\Debug\SimpleFactory.exe.config
 D:\Patterns\SimpleFactory\obj\Debug\SimpleFactory.exe
 D:\Patterns\SimpleFactory\obj\Debug\SimpleFactory.pdb
+D:\Patterns\SimpleFactory\bin\Debug\SimpleFactory.exe
+D:\Patterns\SimpleFactory\bin\Debug\SimpleFactory.pdb
