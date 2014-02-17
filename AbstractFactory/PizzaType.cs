@@ -2,8 +2,7 @@
 {
     public enum PizzaType
     {
-        Simple,
-        NySimplePizza,
-        ChicagoSimplePizza
+        ClamPizza,
+        CheezePizza
     }
 }

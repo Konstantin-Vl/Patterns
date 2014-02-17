@@ -15,3 +15,4 @@ D:\Patterns\Patterns\bin\Debug\Patterns.exe
 D:\Patterns\Patterns\bin\Debug\Patterns.pdb
 D:\Patterns\Patterns\obj\Debug\Patterns.exe
 D:\Patterns\Patterns\obj\Debug\Patterns.pdb
+D:\Patterns\Patterns\obj\Debug\Strategy.csprojResolveAssemblyReference.cache

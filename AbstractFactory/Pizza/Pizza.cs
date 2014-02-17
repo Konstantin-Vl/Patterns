@@ -6,28 +6,29 @@ namespace AbstractFactory.Pizza
 {
     public abstract class Pizza
     {
-        public string Name { get; protected set; }
-        protected Clam clam;
-        protected Dough dough;
-        protected Peperoni peperoni;
-        protected Sauce sauce;
-        protected List<Vegie> vegies;
+        public string Name { get; set; }
+        public Dough Dough { get; set; }
+        public Sauce Sauce { get; set; }
+        public List<Veggies> Veggieses { get; set; }
+        public Cheese Cheese { get; set; }
+        public Pepperoni Pepperoni { get; set; }
+        public Clam Clam { get; set; }
 
         public abstract void Prepare();
 
         public void Bake()
         {
-            Console.WriteLine("Bake for 25 min");
+            Console.WriteLine("Bake pizza");
         }
 
         public void Cut()
         {
-            Console.WriteLine("Cut pizza");
+            Console.WriteLine("Cutting pizza");
         }
 
         public void Box()
         {
-            Console.WriteLine("Box the pizza");
+            Console.WriteLine("Boxing pizza");
         }
     }
 }

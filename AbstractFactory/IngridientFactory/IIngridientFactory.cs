@@ -5,10 +5,11 @@ namespace AbstractFactory.IngridientFactory
 {
     public interface IIngridientFactory
     {
-        Clam CreateClam();
-        Dough CreateDough();
-        Peperoni CreatePeperoni();
+        Dough CreateDoug();
         Sauce CreateSauce();
-        List<Vegie> CreateVegies();
+        Cheese CreateCheese();
+        List<Veggies> CreateVeggies();
+        Pepperoni CreatePepperoni();
+        Clam CreateClam();
     }
 }

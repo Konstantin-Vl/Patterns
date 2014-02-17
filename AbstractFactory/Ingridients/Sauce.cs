@@ -1,14 +1,12 @@
 ﻿namespace AbstractFactory.Ingridients
 {
-    public class Sauce
+    public class Sauce : IIngridient
     {
-        public string Name { get; protected set; }
-        public double Cost { get; protected set; }
+        public string Name { get; set; }
 
         public Sauce()
         {
             Name = "Sauce";
-            Cost = 55;
         }
     }
 }

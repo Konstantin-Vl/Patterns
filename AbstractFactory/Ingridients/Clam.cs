@@ -1,26 +1,12 @@
 ﻿namespace AbstractFactory.Ingridients
 {
-    public class Clam
+    public class Clam : IIngridient
     {
-        public string Name { get; protected set; }
-        public double Cost { get; protected set; }
-    }
+        public string Name { get; set; }
 
-    public class NyClam : Clam
-    {
-        public NyClam()
+        public Clam()
         {
-            Name = "NY Clam";
-            Cost = 99;
-        }
-    }
-
-    public class ChicagoClam : Clam
-    {
-        public ChicagoClam()
-        {
-            Name = "NY Clam";
-            Cost = 99;
+            Name = "Clam";
         }
     }
 }

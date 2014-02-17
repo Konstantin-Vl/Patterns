@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D109BEFA-2E3B-42B5-8F3D-D07E7C471B29}</ProjectGuid>
+    <ProjectGuid>{6B3A8A24-F6D2-4986-896A-4A1DA81E2C9C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AbstractFactory</RootNamespace>
@@ -41,23 +41,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IngridientFactory\ChicagoPizzaIngridientsFactory.cs" />
+    <Compile Include="IngridientFactory\ChicagoIngridientFactory.cs" />
     <Compile Include="IngridientFactory\IIngridientFactory.cs" />
-    <Compile Include="IngridientFactory\NyPizzaIngridientFactory.cs" />
+    <Compile Include="IngridientFactory\NyIngridientFactory.cs" />
+    <Compile Include="Ingridients\Cheese.cs" />
     <Compile Include="Ingridients\Clam.cs" />
-    <Compile Include="Ingridients\Dough.cs" />
-    <Compile Include="Ingridients\Peperoni.cs" />
+    <Compile Include="Ingridients\Doug.cs" />
+    <Compile Include="Ingridients\IIngridient.cs" />
+    <Compile Include="Ingridients\Chicago\ChicagoCheese.cs" />
+    <Compile Include="Ingridients\Chicago\ChicagoClam.cs" />
+    <Compile Include="Ingridients\Chicago\ChicagoDough.cs" />
+    <Compile Include="Ingridients\Chicago\ChicagoPepperoni.cs" />
+    <Compile Include="Ingridients\Chicago\ChicagoSauce.cs" />
+    <Compile Include="Ingridients\Chicago\ChicagoVeggies.cs" />
+    <Compile Include="Ingridients\Ny\NyCheese.cs" />
+    <Compile Include="Ingridients\Ny\NyClam.cs" />
+    <Compile Include="Ingridients\Ny\NyDough.cs" />
+    <Compile Include="Ingridients\Ny\NyPepperoni.cs" />
+    <Compile Include="Ingridients\Ny\NySauce.cs" />
+    <Compile Include="Ingridients\Ny\NyVeggies.cs" />
+    <Compile Include="Ingridients\Pepperoni.cs" />
     <Compile Include="Ingridients\Sauce.cs" />
-    <Compile Include="Ingridients\Vegie.cs" />
-    <Compile Include="IPizzaStore.cs" />
-    <Compile Include="NyPizzaStore.cs" />
+    <Compile Include="Ingridients\Veggies.cs" />
+    <Compile Include="PizzaStore\ChicagoPizzaStore.cs" />
+    <Compile Include="PizzaStore\NyPizzaStore.cs" />
+    <Compile Include="PizzaStore\PizzaStore.cs" />
     <Compile Include="PizzaType.cs" />
-    <Compile Include="Pizza\ChicagoSimplePizza.cs" />
-    <Compile Include="Pizza\NySimplePizza.cs" />
+    <Compile Include="Pizza\CheezePizza.cs" />
+    <Compile Include="Pizza\ClamPizza.cs" />
     <Compile Include="Pizza\Pizza.cs" />
-    <Compile Include="Pizza\SimplePizza.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
