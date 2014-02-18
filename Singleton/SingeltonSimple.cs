@@ -2,9 +2,11 @@
 
 namespace Singleton
 {
-    public sealed class SingeltonSimple
+    public class SingeltonSimple
     {
         private static SingeltonSimple _uniqueInstanse;
+
+        private SingeltonSimple(){ }
 
         public static SingeltonSimple GetInstanse()
         {

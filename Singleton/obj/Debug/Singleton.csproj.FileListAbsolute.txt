@@ -4,3 +4,9 @@ D:\Patterns\Singleton\bin\Debug\Singleton.pdb
 D:\Patterns\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache
 D:\Patterns\Singleton\obj\Debug\Singleton.exe
 D:\Patterns\Singleton\obj\Debug\Singleton.pdb
+D:\Tranings\Patterns\Singleton\bin\Debug\Singleton.exe.config
+D:\Tranings\Patterns\Singleton\bin\Debug\Singleton.exe
+D:\Tranings\Patterns\Singleton\bin\Debug\Singleton.pdb
+D:\Tranings\Patterns\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache
+D:\Tranings\Patterns\Singleton\obj\Debug\Singleton.exe
+D:\Tranings\Patterns\Singleton\obj\Debug\Singleton.pdb
