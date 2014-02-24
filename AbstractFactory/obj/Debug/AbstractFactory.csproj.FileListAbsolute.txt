@@ -6,3 +6,6 @@ D:\Patterns\AbstractFactory\obj\Debug\AbstractFactory.pdb
 D:\Tranings\Patterns\AbstractFactory\bin\Debug\AbstractFactory.exe.config
 D:\Tranings\Patterns\AbstractFactory\obj\Debug\AbstractFactory.exe
 D:\Tranings\Patterns\AbstractFactory\obj\Debug\AbstractFactory.pdb
+D:\Tranings\Patterns\AbstractFactory\bin\Debug\AbstractFactory.exe
+D:\Tranings\Patterns\AbstractFactory\bin\Debug\AbstractFactory.pdb
+D:\Tranings\Patterns\AbstractFactory\obj\Debug\AbstractFactory.csprojResolveAssemblyReference.cache

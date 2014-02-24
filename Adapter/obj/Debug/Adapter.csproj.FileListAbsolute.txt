@@ -4,3 +4,9 @@ D:\Patterns\Adapter\bin\Debug\Adapter.pdb
 D:\Patterns\Adapter\obj\Debug\Adapter.csprojResolveAssemblyReference.cache
 D:\Patterns\Adapter\obj\Debug\Adapter.exe
 D:\Patterns\Adapter\obj\Debug\Adapter.pdb
+D:\Tranings\Patterns\Adapter\bin\Debug\Adapter.exe.config
+D:\Tranings\Patterns\Adapter\obj\Debug\Adapter.exe
+D:\Tranings\Patterns\Adapter\obj\Debug\Adapter.pdb
+D:\Tranings\Patterns\Adapter\bin\Debug\Adapter.exe
+D:\Tranings\Patterns\Adapter\bin\Debug\Adapter.pdb
+D:\Tranings\Patterns\Adapter\obj\Debug\Adapter.csprojResolveAssemblyReference.cache

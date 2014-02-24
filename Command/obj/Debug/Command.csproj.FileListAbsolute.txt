@@ -4,3 +4,9 @@ D:\Patterns\Command\bin\Debug\Command.pdb
 D:\Patterns\Command\obj\Debug\Command.csprojResolveAssemblyReference.cache
 D:\Patterns\Command\obj\Debug\Command.exe
 D:\Patterns\Command\obj\Debug\Command.pdb
+D:\Tranings\Patterns\Command\bin\Debug\Command.exe.config
+D:\Tranings\Patterns\Command\bin\Debug\Command.exe
+D:\Tranings\Patterns\Command\bin\Debug\Command.pdb
+D:\Tranings\Patterns\Command\obj\Debug\Command.csprojResolveAssemblyReference.cache
+D:\Tranings\Patterns\Command\obj\Debug\Command.exe
+D:\Tranings\Patterns\Command\obj\Debug\Command.pdb
