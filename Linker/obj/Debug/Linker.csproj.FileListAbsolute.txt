@@ -1,0 +1,6 @@
+D:\Patterns\Linker\bin\Debug\Linker.exe.config
+D:\Patterns\Linker\bin\Debug\Linker.exe
+D:\Patterns\Linker\bin\Debug\Linker.pdb
+D:\Patterns\Linker\obj\Debug\Linker.csprojResolveAssemblyReference.cache
+D:\Patterns\Linker\obj\Debug\Linker.exe
+D:\Patterns\Linker\obj\Debug\Linker.pdb

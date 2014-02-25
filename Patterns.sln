@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{A39DC857-C9F2-4819-8403-514BB388120F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{AE110261-DAE7-419B-919E-09746261E2D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linker", "Linker\Linker.csproj", "{160DF44A-1BFA-49CC-939F-79C74A6709ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,14 @@ Global
 		{A39DC857-C9F2-4819-8403-514BB388120F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A39DC857-C9F2-4819-8403-514BB388120F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A39DC857-C9F2-4819-8403-514BB388120F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE110261-DAE7-419B-919E-09746261E2D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE110261-DAE7-419B-919E-09746261E2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE110261-DAE7-419B-919E-09746261E2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE110261-DAE7-419B-919E-09746261E2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160DF44A-1BFA-49CC-939F-79C74A6709ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160DF44A-1BFA-49CC-939F-79C74A6709ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160DF44A-1BFA-49CC-939F-79C74A6709ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160DF44A-1BFA-49CC-939F-79C74A6709ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
