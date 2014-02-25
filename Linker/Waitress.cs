@@ -1,34 +1,36 @@
 ﻿using System;
-using System.Collections;
 
 namespace Linker
 {
     public class Waitress
     {
-        private readonly ArrayList _menus;
+        private readonly MenuComponent _allMenus;
 
-        public Waitress(ArrayList menus)
+        public Waitress(MenuComponent allMenus)
         {
-            _menus = menus;
+            _allMenus = allMenus;
         }
 
         public void PrintMenu()
         {
-            var menuIterator = _menus.GetEnumerator();
-            while (menuIterator.MoveNext())
-            {
-                var menu = (IEnumerable) menuIterator.Current;
-                PrintMenu(menu.GetEnumerator());
-            }
+            _allMenus.Print();
         }
 
-        private static void PrintMenu(IEnumerator iterator)
+        public void PrintVegeterianMenu()
         {
-            while (iterator.MoveNext())
+            var enumerator = _allMenus.GetEnumerator();
+            Console.WriteLine("\nVEGETERIAN MENU\n------");
+            while (enumerator.MoveNext())
             {
-                var menuItem = (MenuItem)iterator.Current;
-                Console.WriteLine("*Name - {0}\n**Description - {1}\n**Is vegeterian - {2}\n**Price - {3}\n\n",
-                    menuItem.Name, menuItem.Description, menuItem.IsVegeterian, menuItem.Price);
+                var menuComponent = (MenuComponent)enumerator.Current;
+                try
+                {
+                    if (menuComponent.IsVegeterian())
+                        menuComponent.Print();
+                }
+                catch
+                {
+                }
             }
         }
     }
