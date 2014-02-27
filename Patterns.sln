@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linker", "Linker\Linker.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{F9778AD0-6A1F-4CB0-BED1-185C29AA4A47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePatterns", "CompositePatterns\CompositePatterns.csproj", "{13ABFCEE-54C7-43DA-9238-4A99150A10B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{F9778AD0-6A1F-4CB0-BED1-185C29AA4A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9778AD0-6A1F-4CB0-BED1-185C29AA4A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9778AD0-6A1F-4CB0-BED1-185C29AA4A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13ABFCEE-54C7-43DA-9238-4A99150A10B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13ABFCEE-54C7-43DA-9238-4A99150A10B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13ABFCEE-54C7-43DA-9238-4A99150A10B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13ABFCEE-54C7-43DA-9238-4A99150A10B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

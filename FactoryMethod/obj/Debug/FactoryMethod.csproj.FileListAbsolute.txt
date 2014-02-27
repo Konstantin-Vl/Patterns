@@ -9,3 +9,4 @@ D:\Tranings\Patterns\FactoryMethod\bin\Debug\FactoryMethod.pdb
 D:\Tranings\Patterns\FactoryMethod\obj\Debug\FactoryMethod.csprojResolveAssemblyReference.cache
 D:\Tranings\Patterns\FactoryMethod\obj\Debug\FactoryMethod.exe
 D:\Tranings\Patterns\FactoryMethod\obj\Debug\FactoryMethod.pdb
+D:\Patterns\FactoryMethod\obj\Debug\FactoryMethod.csprojResolveAssemblyReference.cache
